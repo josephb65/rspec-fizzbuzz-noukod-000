@@ -4,10 +4,12 @@ def fizzbuzz(fizz_3)
   if fizz_3 % 3 == 0 && fizz_3 % 5 ==0
     return "FizzBuzz"
   end
-  elsif fizz_3 % 3 == 0 
+  
+  if fizz_3 % 3 == 0 
     return "Fizz"
   end
-  elsif fizz_3 % 5 ==0 
+  
+  if fizz_3 % 5 ==0 
     return "Buzz"
   end
 end 
