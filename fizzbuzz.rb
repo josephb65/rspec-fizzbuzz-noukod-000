@@ -3,8 +3,10 @@
 def fizzbuzz(fizz_3)
   if (fizz_3 % 3 == 0) || (fizz_3 % 5 ==0)
     "FizzBuzz"
+  end
   elsif fizz_3 % 3 == 0 
     "Fizz"
+  end
   elsif fizz_3 % 5 ==0 
     "Buzz"
   end
